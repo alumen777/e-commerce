@@ -21,8 +21,8 @@ public class Anagram {
             Arrays.sort(ch1);
             Arrays.sort(ch2);
 
-
-            return Arrays.equals(ch1,ch2);  //ch1.toString().equals(ch2.toString());
+            return Arrays.equals(ch1,ch2);
+             //ch1.toString().equals(ch2.toString());
         } else {
             return false;
         }
